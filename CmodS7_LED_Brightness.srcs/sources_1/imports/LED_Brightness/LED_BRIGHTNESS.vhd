@@ -41,7 +41,7 @@ use IEEE.math_real.ALL;
 entity LED_BRIGHTNESS is
 	Generic (
 		INPUT_CLK		: integer := 12000000; -- 12 MHz default
-		NUM_RGB_LEDS	: integer := 4;
+		NUM_RGB_LEDS	: integer := 1;
 		NUM_LEDS 		: integer := 4);		
 	Port (
 		Led_Out			: out std_logic_vector(NUM_LEDS - 1 downto 0);
